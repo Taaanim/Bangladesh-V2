@@ -378,6 +378,31 @@ footer .conta{
 }
 
 @media (max-width: 1200px){
+    .header{
+        margin: 20px 50px;
+    }
+    .hero{
+        margin: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .himg{
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+
+    #pillars{
+        margin: 50px;
+    }
+    .quots{
+        margin: 50px;
+    }
+    .donate{
+        margin: 50px;
+    }
+    .btn1{
+        margin-bottom: 30px;
+    }
     .scontain{
         background-color: #C6E4D6 ;
         border-radius: 15px;
@@ -426,4 +451,41 @@ footer .conta{
         width: 150px;
         margin: 20px;
     }
+}
+@media (max-width: 600px) {
+    .header{
+        flex-direction: column;
+    }
+    .hero{
+        justify-content: center;
+        align-items: center;
+    }
+    .title1 , .title{
+        font-size: 28px;
+    }
+    .fill{
+        min-width: 200px;
+    }
+    .amount{
+        display: none;
+    }
+    .item{
+        flex-direction: column;
+    }
+    .content , .img {
+        margin: 20px;
+        width: auto;
+    }
+    .item .img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    footer .conta{
+        padding: 20px;
+        margin: 40px 20px;
+        
+        /* height: auto; */
+    }
+    
+    
 }
