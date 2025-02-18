@@ -389,6 +389,7 @@ footer .conta{
     .himg{
         margin-top: 20px;
         padding-top: 40px;
+        margin-right: 0px;
     }
 
     #pillars{
@@ -460,6 +461,13 @@ footer .conta{
         justify-content: center;
         align-items: center;
     }
+    .hero .content, .hero .img {
+        width: 90%;
+        
+    }
+    .hero .himg{
+        margin-right: 0px;
+    }
     .title1 , .title{
         font-size: 28px;
     }
@@ -479,13 +487,29 @@ footer .conta{
     .item .img{
         width: 100%;
         margin-top: 0px;
+        margin-bottom: 0px;
     }
     footer .conta{
         padding: 20px;
-        margin: 40px 20px;
+        margin: 0px;
         
         /* height: auto; */
     }
-    
+
+    .item{
+        padding: 15px;
+    }
+    .scontain {
+        margin: 20px;
+        padding: 50px 50px;
+    }
+    .conta{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 90%;
+        margin: 0px;
+    }
     
 }
